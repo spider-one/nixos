@@ -30,7 +30,7 @@
             home-manager.useUserPackages = true;
 
             # TODO replace ryan with your own username
-            home-manager.users.tylor = import ./nspiron-5368/home.nix;
+            home-manager.users.tylor = import ./inspiron-5368/home.nix;
 
             # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
           }
