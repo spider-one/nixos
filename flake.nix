@@ -7,7 +7,7 @@
   };
 
   outputs = { self, nixpkgs, ... }@inputs: {
-    # Please replace my-nixos with your hostname
+    # Please replace nixosConfigurations.my-nixos with your hostname
     nixosConfigurations.inspiron-5368 = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [

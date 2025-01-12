@@ -27,6 +27,10 @@ git branch -M main
 git push -u origin main
 ```
 
+can initialize a system using the command below refercing that pc's hostname
+```
+sudo nixos-rebuild switch --flake /path/to/your/flake#your-hostname
+```
 to commit and push all changes
 
 ```
