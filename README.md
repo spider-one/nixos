@@ -27,6 +27,13 @@ git branch -M main
 git push -u origin main
 ```
 
+to commit and push all changes
+
+```
+git commit -a -m "commit note"
+git push
+```
+
 ```
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFtLWWzTPW99+YOmSF7p4Nt6odElCtEusYnsqNUasEHi
 ```
