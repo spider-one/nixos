@@ -18,7 +18,7 @@
           # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
           home-manager.nixosModules.home-manager
           {
-            # home-manager.useGlobalPkgs = true;
+            home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             # edit below for your own username
             home-manager.users.tylor = import ./home-manager/home.nix;

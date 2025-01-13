@@ -48,6 +48,7 @@
   # programs.neovim.enable = true;
   home.packages = with pkgs; [
     gnupg
+    wget
   ];
 
   # Enable home-manager and git
